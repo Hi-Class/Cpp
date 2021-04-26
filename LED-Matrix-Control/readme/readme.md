@@ -13,7 +13,7 @@ VS에서는 소스를 자동으로 복사하고 원격으로 빌드하며, 디�
 애플리케이션을 시작할 수 있습니다. 프로젝트 시스템은 ARM을 비롯한 특정
 아키텍처를 대상으로 하는 기능을 지원합니다.
 
-![](images\ArchOptions.gif)
+![](./images/ArchOptions.gif)
 
 Linux에 연결
 ============
@@ -33,7 +33,7 @@ sudo apt-get install openssh-server g++ gdb gdbserver).
 처음 Linux 머신을 대상으로 할 경우 연결 정보를 입력하라는 메시지가
 표시됩니다. 프로젝트를 빌드하면 이 동작이 트리거됩니다.
 
-![](images\firstconnection.png)
+![](./images/firstconnection.png)
 
 연결 추가 및 제거
 -----------------
@@ -42,12 +42,12 @@ sudo apt-get install openssh-server g++ gdb gdbserver).
 연결 관리자는 플랫폼 간 아래에 있습니다. 여기에서 연결을 추가하고 제거할
 수 있습니다.
 
-![](images\ManageConnections.gif)
+![](./images/ManageConnections.gif)
 
 프로젝트에서 사용 중인 연결을 변경하려면 [프로젝트 속성] \> [일반
 설정]으로 이동하여 원격 빌드 머신 옵션을 업데이트합니다.
 
-![](images\ChangeRemote.gif)
+![](./images/ChangeRemote.gif)
 
 프로젝트 속성
 =============
@@ -58,7 +58,7 @@ C++ 컴파일을 제어하는 데 필요한 모든 옵션이 프로젝트 속성
 설정되고, 해당 위치의 프로젝트 이름과 일치하도록 원격 프로젝트
 디렉터리가 설정되는 것을 확인할 수 있습니다.
 
-![](images\OutputTypes.gif)
+![](./images/OutputTypes.gif)
 
 프로젝트의 일반 설정을 보면 출력 및 중간 디렉터리가 구성되는 방식을
 확인할 수 있습니다. 또한 이 프로젝트가 애플리케이션으로 구성되었으며,
@@ -67,18 +67,18 @@ C++ 컴파일을 제어하는 데 필요한 모든 옵션이 프로젝트 속성
 
 링커 \> 입력 속성 페이지에서 라이브러리 종속성을 더 추가합니다.
 
-![](images\linker.png)
+![](./images/linker.png)
 
 추가 사전 실행 명령을 디버거에 전달하여 원격 Linux 머신에서 그래픽 앱을
 시작하는 등의 작업을 수행할 수 있습니다.
 
-![](images\debuggerexport.png)
+![](./images/debuggerexport.png)
 
 또한 슈퍼 사용자로 실행 파일을 실행할 필요 없이 사용할 GPIO 핀을
 내보내는 이 예제와 같이, 빌드 후 이벤트를 보내 원격 동작을 제어할 수
 있습니다.
 
-![](images\postbuild.png)
+![](./images/postbuild.png)
 
 리소스
 ======
