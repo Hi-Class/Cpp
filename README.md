@@ -1,7 +1,7 @@
 # LED-Matrix-Control
 
 ## Reference
-[Origianl Github Link](https://github.com/hzeller/rpi-rgb-led-matrix)
+[Original Github Link](https://github.com/hzeller/rpi-rgb-led-matrix)
 
 
 ## Visual Studio Setting
