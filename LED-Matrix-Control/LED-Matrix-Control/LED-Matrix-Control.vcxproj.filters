@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{bee34dfb-a0ee-4a44-aef4-c617749b2301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{9b7dbd91-8cbc-4b1d-bcde-df7a9aa368dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\canvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\content-streamer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\led-matrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\led-matrix-c.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pixel-mapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\thread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threaded-canvas-manipulator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\framebuffer-internal.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\gpio.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\gpio-bits.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\hardware-mapping.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\multiplex-mappers-internal.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\utf8-internal.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\bdf-font.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\content-streamer.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\framebuffer.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\gpio.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\graphics.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\hardware-mapping.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\led-matrix.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\led-matrix-c.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\multiplex-mappers.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\options-initialize.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\pixel-mapper.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\thread.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\compiler-flags">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="array_data" />
+  </ItemGroup>
+</Project>
