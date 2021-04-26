@@ -12,7 +12,7 @@
 <img src="./img/2.png" hegiht=400>
 <img src="./img/3.png" hegiht=400>
 
-```json
+```
 R1=14       G1=15
 B1=23       GND
 R2=24       G2=25
