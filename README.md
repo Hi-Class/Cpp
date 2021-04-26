@@ -27,4 +27,4 @@ OE=6
 
 ### open LED-Matrix-Control.sln file
 
-### [Raspberry Pi SSH Connection Setting](/Cpp/LED-Matrix-Control/readme/readme.html)
+### [Raspberry Pi SSH Connection Setting](https://github.com/Hi-Class/Cpp/blob/main/LED-Matrix-Control/readme/readme.md)
