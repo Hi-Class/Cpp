@@ -15,10 +15,12 @@ CLK=22      LAT=9
 OE=6
 ```
 
-## Use
+## Compile
 ```sh
-~/Hi-Class/Cpp $ ./run.sh
+~/Hi-Class/Cpp $ g++ -o main.out ./src/*.cc -I./include -lpthread
 ```
+
+[next_step](http://github.com/Hi-Class/Python)
 
 ## Customize Pin Number
 ```sh
